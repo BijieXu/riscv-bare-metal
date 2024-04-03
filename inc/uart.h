@@ -41,5 +41,6 @@ void print_s(const char* s);
 void print_c(char c);
 void print_i(unsigned long int x);
 void print_h(unsigned long int x);
+void printf(char *fmt, ...);
 
 #endif /* ifndef UART_H */
